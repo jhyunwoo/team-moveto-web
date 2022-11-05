@@ -27,10 +27,10 @@ export default function Home() {
       </div>
       <div className="bg-slate-50 flex flex-col items-center p-4">
         <div className="text-3xl font-bold">Contacts</div>
-        <div className="grid grid-cols-1 lg:grid-cols-2  w-full">
-          <div className="flex p-2   my-2 items-center justify-between ">
-            <div className="text-xl font-semibold mr-4 ml-2">E-mail</div>
-            <div>jhyunwoo@moveto.kr</div>
+        <div className="flex flex-col w-full items-center">
+          <div className="flex p-2   my-2 items-center justify-between">
+            <div className="text-xl font-semibold ml-2">E-mail</div>
+            <div className="mx-6">jhyunwoo@moveto.kr</div>
             <Link href="mailto:jhyunwoo@moveto.kr" className="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 text-white p-1 rounded-lg px-2">
               Send E-mail
             </Link>
