@@ -5,8 +5,8 @@ import cntextbook from "../public/cntextbook-logo.png"
 export default function Home() {
   return (
     <div>
-      <div className=" h-screen flex bg-black">
-        <div className="mx-auto my-auto text-6xl font-bold text-white">
+      <div className=" h-screen flex bg-black justify-center items-center">
+        <div className="text-6xl font-bold text-white text-center">
           Team Moveto
         </div>
       </div>
@@ -25,13 +25,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-50 flex flex-col items-center p-4">
+      <div className="bg-slate-50 flex flex-col items-center p-2">
         <div className="text-3xl font-bold">Contacts</div>
         <div className="flex flex-col w-full items-center">
-          <div className="flex p-2   my-2 items-center justify-between">
-            <div className="text-xl font-semibold ml-2">E-mail</div>
-            <div className="mx-6">jhyunwoo@moveto.kr</div>
-            <Link href="mailto:jhyunwoo@moveto.kr" className="bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 text-white p-1 rounded-lg px-2">
+          <div className="flex py-2  my-2 items-center justify-between">
+            <div className="font-semibold ml-2">E-mail</div>
+            <div className="mx-2 sm:mx-4 md:mx-5 lg:mx-6">jhyunwoo@moveto.kr</div>
+            <Link href="mailto:jhyunwoo@moveto.kr" className="text-center bg-blue-500 hover:bg-blue-600 hover:scale-105 transition duration-300 text-white p-1 rounded-lg px-2">
               Send E-mail
             </Link>
           </div>
