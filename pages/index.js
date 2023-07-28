@@ -35,7 +35,7 @@ export default function Home() {
             />
             <div className="ml-4 flex flex-col">
               <div className="text-xl font-semibold mb-2">CN교과서</div>
-              <div>충남삼성고등학교 시험 대비를 위한 모바일 전용 교과서</div>
+              <div>충남삼성고등학교 시험 대비를 위한 모바일 교과서</div>
               <Link
                 href="https://cntextbook.moveto.kr"
                 className="bg-orange-400 p-1 px-2 text-white hover:bg-orange-500 mt-2 rounded-lg text-center hover:ring-2 hover:ring-orange-500 hover:ring-offset-1 transition duration-300"
